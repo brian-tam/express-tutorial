@@ -34,6 +34,3 @@ app.get('/rand', (req, res) => {
     res.render('random', { num })
 })
 
-app.listen(3000, () => {
-    console.log("LISTENING ON PORT 3000")
-})
